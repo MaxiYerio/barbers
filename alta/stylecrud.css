@@ -1,0 +1,264 @@
+.fondotabla {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/vintage-wooden-table-with-beard-shaping-salon-tools.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.fondoalta {
+    margin: 0;
+    padding: 0;
+    background-color: #1b0d2a;
+    background-image: url(img/901.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.fondoeliminar {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/11924.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.contenedoreliminar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #161616ec;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+
+}
+
+.contenedoreliminar {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.contenedoreliminar input {
+    width: 50%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.contenedoreliminar .entrar {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.cuadroform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #161616ec;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.cuadroform h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.SubirArchivo {
+    position: relative;
+    display: inline-block;
+}
+
+.SubirArchivo::before {
+    background-color: #c4a40c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Subir';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.SubirArchivo input[type="file"] {
+    opacity: 0;
+    width: 1%;
+    height: 1%;
+    display: inline-block;
+}
+
+#src-file::before {
+    content: 'Subir Foto';
+}
+
+.cuadroform .usuario {
+    position: relative;
+}
+
+.cuadroform .usuario input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.cuadroform .usuario label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.cuadroform .usuario textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.582);
+    resize: none;
+}
+
+
+.cuadroform .usuario input:focus~label,
+.cuadroform .usuario input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.cuadroform form .entrar {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mensaje {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0px 10px 10px 10px;
+    color: white;
+    background-color: #362449;
+    opacity: .8;
+}
+
+.contenedor {
+    background-color: rgba(36, 35, 35, 0.932);
+    position: absolute;
+    margin: 5% 0 0 0;
+    width: 60%;
+}
+
+.main-button a {
+    background-color: #c4a40c;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.main-button a:hover {
+    opacity: 0.7;
+}
+
+a {
+    color: #cccaca;
+}
+
+.titulo {
+    font-size: 25px;
+    color: #cccaca;
+    text-align: center;
+}
+
+.tablaproducto {
+    color: white;
+    margin: auto;
+    padding: auto;
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+table th,
+table td {
+    border: 1px solid rgb(236, 231, 231);
+    padding: 0.75rem;
+}
